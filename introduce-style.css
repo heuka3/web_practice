@@ -1,0 +1,62 @@
+/* 전체 페이지에 대한 기본 스타일 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 컨테이너 설정 */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background: #5bdf738f;
+    color: #43cd3693;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 2px solid #0779e4;
+}
+
+header h3 {
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 소개 섹션 */
+.about-me {
+    background: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+/* 기술 섹션 */
+.my-skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.my-skills ul li {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
